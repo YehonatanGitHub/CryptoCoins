@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.bg-dark {
+  background-color: #494fcf !important;
+}
+
+.col-sm-4 {
+  background-color: rgb(0, 0, 0);
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.card {
+  /* background-color: rgb(126, 128, 141); */
+  background-color: #494fcf !important;
+}
+
+.row {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.switch {
+  position: relative;
+  /* display: inline-block; */
+  width: 60px;
+  height: 34px;
+  float: right;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(0, 0, 0);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.parallax {
+  min-height: 500px;
+  background: transparent;
+}
+
+#aboutCard {
+  color: white;
+  /* border-width: 15px; */
+  height: 400px;
+  align-items: center;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#loading-image {
+  position: relative;
+  top: -623px;
+  z-index: 100000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hidden {
+  display: none;
+}
