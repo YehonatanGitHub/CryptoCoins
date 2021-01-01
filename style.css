@@ -115,4 +115,10 @@ input:checked + .slider:before {
     margin-left: 0%;
     margin-right: 0%;
   }
+  .parallax {
+    display: none;
+  }
+  .mobile-img {
+    margin-top: 67px;
+  }
 }
