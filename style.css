@@ -106,7 +106,7 @@ input:checked + .slider:before {
   margin-right: auto;
 }
 
-.hidden {
+.mobile-img {
   display: none;
 }
 
