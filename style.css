@@ -120,5 +120,6 @@ input:checked + .slider:before {
   }
   .mobile-img {
     margin-top: 67px;
+    display: block;
   }
 }
